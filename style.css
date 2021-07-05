@@ -113,6 +113,7 @@ header h1{
     text-align: center;
     font-size: 3rem;
     color:#ffff;
+    padding-top: 10px;
 }
 header hr{
     width: 10%;
@@ -128,6 +129,8 @@ header hr{
     margin: 3rem;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 1rem;
+    border-radius: 20px;
 }
 .about-text .left-col{
     flex-basis: 50%;
@@ -149,4 +152,41 @@ header hr{
     width: 80%;
     text-align: justify;
 }
+#recipies header{
+    margin-top: 2rem;
+}
+#recipies header p{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 2rem 0;
+    font-family: var(--pragraph);
+}
+.recipi-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.recipi-div .container{
+    width: 25%;
+    padding: 2rem;
+    box-shadow: 1px 3px 17px 1px gray;
+    border-radius: 20px;
 
+}
+.recipi-div .container img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.recipi-div .container h2{
+    padding: 5px;
+    font-family: var(--heading);
+    color: #575757;
+}
+.recipi-div .container p{
+    padding: 5px;
+    font-family: var(--pragraph);
+    color: #444;
+}
