@@ -49,6 +49,10 @@ nav{
     font-family: var(--heading);
 
 }
+.menu a:hover{
+    background: #575757;
+    transition: 1s;
+}
 .home-concept{
     display: flex;
     justify-content: center;
@@ -100,6 +104,7 @@ nav{
     color:#fe4a2e;
     border: 2px solid #fe4a2e;
     background: white;
+    transition: 0.6s;
 }
 
 /* about section start  */
@@ -189,4 +194,60 @@ header hr{
     padding: 5px;
     font-family: var(--pragraph);
     color: #444;
+}
+/* testimonials  */
+#testimonials header{
+    margin-top: 2rem;
+}
+#testimonials header p{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 1rem 0;
+    font-family: var(--pragraph);
+}
+#testimonials{
+    background-image: url('images/7.png');
+    width: 100%;
+    background-size: cover;
+    height: 42rem;
+    background-repeat: no-repeat;
+
+}
+.clients-opinion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #575757;
+    margin:3rem;
+    flex-wrap: wrap;
+    padding: 2.5rem;
+    box-shadow: 1px 4px 20px 2px gray;
+    border-radius: 20px;
+}
+.clients-opinion .client{
+    flex-basis: 25%;
+    box-shadow: 1px 3px 16px 1px #fe4a2e;
+    border-radius: 20px;
+}
+.clients-opinion .client img{
+    width: 70%;
+    height: 70%;
+    background-size: cover;
+    border-radius: 10%;
+    padding: 1rem;
+    
+}
+.clients-opinion .client p{
+    text-align: justify;
+    font-family: var(--pragraph);
+    color: rgb(214, 196, 196);
+    padding: 1rem;
+}
+.clients-opinion .client h2{
+    text-align: center;
+    font-family: var(--heading);
+    color:#fe4a2e;
+    font-size: 1.3rem;
+    padding: 1rem;
 }
