@@ -120,6 +120,9 @@ header h1{
     color:#ffff;
     padding-top: 10px;
 }
+header h1 span{
+    color: #fe4a2e;
+}
 header hr{
     width: 10%;
     margin: auto;
@@ -251,3 +254,109 @@ header hr{
     font-size: 1.3rem;
     padding: 1rem;
 }
+#contact{
+    width: 100%;
+    height: 38rem;
+}
+#contact header{
+    margin-top: 2rem;
+}
+#contact header p{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 1rem 0;
+    font-family: var(--pragraph);
+}
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-section .contact-left{
+    flex-basis: 50%;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+}
+.contact-section .contact-left label{
+    padding:2rem 2rem;
+    font-size: 1.2rem;
+    font-family: var(--pragraph);
+}
+.contact-section .contact-left input{
+    padding: 0.7rem;
+    margin: 0.4rem 2rem;
+    width: 25rem;
+
+}
+.contact-section .contact-left textarea{
+    padding: 0.7rem;
+    margin: 0.5rem 2rem;
+}
+.contact-section .contact-left .btn{
+    margin: 0 2rem;
+    padding: 1rem;
+}
+
+.contact-section .contact-right{
+    flex-basis: 46%;
+    padding: 1rem 3rem;
+}
+.contact-section .contact-left h2{
+    margin: 2rem 2rem;
+    font-family: var(--heading);
+    color: #fe4a2e;
+}
+.contact-section .contact-right img{
+    width: 80%;
+    height: 80%;
+    border-radius: 20%;
+}
+.social-network{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100vh;
+    height: 8rem;
+    box-shadow: 1px 2px 17px 1px gray;
+    margin: auto;
+    padding: 1.6rem;
+    border-radius: 3rem;
+    
+}
+.social-network .social-container{
+    width: 20%;
+    text-align: center;
+    
+
+}
+.social-network .social-container p span{
+    color: #fe4a2e;
+}
+.social-network .social-container h1{
+    color: #575757;
+    font-family: var(--heading);
+}
+footer{
+    background: black;
+    width: 100%;
+    height: 7rem;
+    margin-top: 5rem;
+}
+footer h2{
+    color: #f7f7f7;
+    text-align: center;
+    font-family: var(--heading);
+    padding-top: 2rem;
+}
+footer h2 span{
+    color: #fe4a2e;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-family: var(--pragraph);
+}
+
